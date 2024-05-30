@@ -1,6 +1,5 @@
 I went ahead and put together examples with code for how I use obsidian for time tracking + a few other examples. 
 
-Its in a GitHub repo, here: https://github.com/kaleb-troyer/ESOL-obsidian-example
 To install obsidian, go to: https://obsidian.md/download
 
 1)	Download the repo as a zip. 
