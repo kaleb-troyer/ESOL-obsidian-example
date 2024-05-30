@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"effd95683bbd6488","type":"group","x":180,"y":-360,"width":620,"height":260,"label":"techno-economic model"},
+		{"id":"ec5780019ce5d1a3","type":"group","x":180,"y":-680,"width":620,"height":260,"label":"topology optimization for heat exchanger"},
+		{"id":"d39358b0e85d7a7c","type":"group","x":829,"y":-680,"width":300,"height":434,"label":"HX sizing model"},
+		{"id":"06bc6642863b3773","type":"text","text":"particle model","x":200,"y":-660,"width":220,"height":60},
+		{"id":"b449069e9d6ccf28","type":"text","text":"fluid model","x":200,"y":-500,"width":220,"height":60},
+		{"id":"754587d3e3d56964","type":"text","text":"experimental model","x":200,"y":-580,"width":220,"height":60},
+		{"id":"fc43a789018f946a","type":"text","text":"**outputs:** \nheat transfer coefficient as a function of mass flow rate, material, etc. ","x":520,"y":-560,"width":250,"height":120,"color":"5"},
+		{"id":"5033e4669791ff36","type":"text","text":"**(3a) HX model inputs:** \n- sCO$_{2}$ mass flow rate\n- target heat gain\n- heat transfer coeff.\n- pressure drop","x":849,"y":-660,"width":260,"height":179,"color":"#bd0042"},
+		{"id":"6946cff5e0523f3c","type":"text","text":"optimized topology","x":520,"y":-660,"width":250,"height":60},
+		{"id":"253f94978c7db8a3","type":"text","text":"**(1) user-generated inputs:**\n- power requirements\n- geographic location","x":200,"y":-340,"width":250,"height":120,"color":"#bd0042"},
+		{"id":"4fbcd3649486b9b1","type":"text","text":"**(6) output:**\ntechno-economic model\n","x":200,"y":-200,"width":250,"height":80,"color":"5"},
+		{"id":"b79e013fc51ec216","type":"text","text":"(3) model heat exchanger","x":530,"y":-260,"width":250,"height":60},
+		{"id":"b0715c89dec7be9b","type":"text","text":"(4) connect to SAM API","x":530,"y":-180,"width":250,"height":60},
+		{"id":"7ca2706513a6a4e2","type":"text","text":"(7) optimization algorithm yields configuration with lowest $/kW","x":200,"y":-80,"width":250,"height":100,"color":"2"},
+		{"id":"ad927f52a01f6b19","type":"text","text":"(5) System Advisor Model generates CSP model","x":530,"y":-60,"width":250,"height":80},
+		{"id":"2ba296f525f09aa0","type":"text","text":"(2) model Brayton cycle","x":530,"y":-340,"width":250,"height":60},
+		{"id":"472e2de778dec4e4","type":"text","text":"end-product","x":949,"y":-30,"width":160,"height":50,"color":"2"},
+		{"id":"522637fbc2dd8721","type":"text","text":"outputs","x":949,"y":-90,"width":160,"height":50,"color":"5"},
+		{"id":"455ae69bfba5bf08","type":"text","text":"inputs","x":949,"y":-150,"width":160,"height":50,"color":"#bd0042"},
+		{"id":"4b597eee1a77e8be","type":"text","text":"**(3b) HX model outputs:**\n- height, width, length\n- number of channels\n- particle mass flow rate\n- conductance","x":849,"y":-454,"width":260,"height":183,"color":"5"}
+	],
+	"edges":[
+		{"id":"692b4b59f577863c","fromNode":"b449069e9d6ccf28","fromSide":"right","toNode":"6946cff5e0523f3c","toSide":"left"},
+		{"id":"b1cb46c4a9d2f0e0","fromNode":"754587d3e3d56964","fromSide":"right","toNode":"6946cff5e0523f3c","toSide":"left"},
+		{"id":"fba74078a3a263a3","fromNode":"06bc6642863b3773","fromSide":"right","toNode":"6946cff5e0523f3c","toSide":"left"},
+		{"id":"3af1f8a21b94f982","fromNode":"6946cff5e0523f3c","fromSide":"bottom","toNode":"fc43a789018f946a","toSide":"top"},
+		{"id":"041f45b399b93417","fromNode":"ad927f52a01f6b19","fromSide":"left","toNode":"4fbcd3649486b9b1","toSide":"right"},
+		{"id":"ef09257546ebf406","fromNode":"5033e4669791ff36","fromSide":"bottom","toNode":"4b597eee1a77e8be","toSide":"top"},
+		{"id":"896c3d68ee3d0412","fromNode":"4fbcd3649486b9b1","fromSide":"bottom","toNode":"7ca2706513a6a4e2","toSide":"top","color":"5"},
+		{"id":"af5431e75f665f3d","fromNode":"b79e013fc51ec216","fromSide":"bottom","toNode":"b0715c89dec7be9b","toSide":"top"},
+		{"id":"0318549828597b12","fromNode":"b0715c89dec7be9b","fromSide":"bottom","toNode":"ad927f52a01f6b19","toSide":"top"},
+		{"id":"a52167cdac59afd1","fromNode":"2ba296f525f09aa0","fromSide":"bottom","toNode":"b79e013fc51ec216","toSide":"top"},
+		{"id":"12416b19eb126a68","fromNode":"b79e013fc51ec216","fromSide":"right","toNode":"d39358b0e85d7a7c","toSide":"bottom","toEnd":"none"},
+		{"id":"357dd08740233ebf","fromNode":"253f94978c7db8a3","fromSide":"right","toNode":"2ba296f525f09aa0","toSide":"left"},
+		{"id":"85423bd05ac5e441","fromNode":"fc43a789018f946a","fromSide":"right","toNode":"5033e4669791ff36","toSide":"left"}
+	]
+}
