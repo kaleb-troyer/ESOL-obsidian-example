@@ -1,0 +1,7 @@
+/* remove bullet for the "main points (file name) and shift
+   the list to the left a bit (since there's no more bullet */
+   ul.dataview.dataview-ul.dataview-result-list-ul {
+	list-style: none;
+	padding-left: 0;
+}
+

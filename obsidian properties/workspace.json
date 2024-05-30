@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "7c1046b8902e9dee",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c4c101f28f518da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4618cfc44f91e20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "project time tracking/2024-05-30.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "de04deb5a35b333b",
+    "type": "split",
+    "children": [
+      {
+        "id": "faf105b8a5f1622d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63ee96a4bd1aa7cb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "28755e467de4966d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e68b0f7000d89376",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c4029098c9967349",
+    "type": "split",
+    "children": [
+      {
+        "id": "de76e88ce7c46bab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3b6828c316ef4a8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "project time tracking/2024-05-30.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5aa896cb5c36784f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "project time tracking/2024-05-30.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b781db59cdd193e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e52ead18ea07fa6b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "project time tracking/2024-05-30.md"
+              }
+            }
+          },
+          {
+            "id": "0a64aee5349e68ed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "a4618cfc44f91e20",
+  "lastOpenFiles": [
+    "canvas example.canvas",
+    "project time tracking/project dataview.md",
+    "welcome to.md",
+    "Untitled.md",
+    "project time tracking/2024-05-30.md",
+    "excalidraw example.md",
+    "kanban example.md",
+    "Appendix B - templates/daily-note-template.md",
+    "project time tracking/archive",
+    "project time tracking",
+    "Welcome.md",
+    "Appendix C - illustrations/Drawing 2024-05-30 13.56.00.excalidraw.md",
+    "Excalidraw",
+    "Appendix C - illustrations",
+    "Appendix A - media",
+    "getting started.md",
+    "tutorials/overview of obsidian settings and usage.md",
+    "tutorials",
+    "tutorials/templates.md",
+    "tutorials/dataview.md",
+    "tutorials/recommended plugins.md",
+    "tutorials/markdown syntax.md",
+    "tutorials/time tracking.md",
+    "Appendix B - templates"
+  ]
+}
